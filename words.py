@@ -4,7 +4,7 @@ words = {
     "PT": {
         "hello": "Olá",
         "notyou": "Tu já estás",
-        "waiting4all": "Faltam jogadores",
+        "waiting4all": "Faltam jogadores para começarmos!",
         "understand": 'Desculpa, não percebi. Podes formular a pergunta de outra forma?',
         "quiz_wel": "Vamos começar o Quiz!",
         "stop": "Obrigado por participares nas minhas actividades!",
@@ -18,7 +18,7 @@ words = {
         "finalprog": "Resultado Final: ",
         "or": " ou ",
         "typq": "Existem os seguintes tipos de resposta:",
-        "respo": "Qual a resposta que pretende?",
+        "respo": "Qual o tipo de resposta que pretende?",
         "KB": {
             "main": ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='Portugu\u00EAs'), KeyboardButton(text='English')]]),
             "k": ReplyKeyboardMarkup(keyboard=[[KeyboardButton(text='Começar Quiz')]]),

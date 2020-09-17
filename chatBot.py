@@ -111,7 +111,7 @@ class Chatbot():
                 return {"mess": words[self.get_lang_userid_db(tipoMsg['from']['id'])]["welcome"], "reply_markup": words[self.get_lang_userid_db(tipoMsg['from']['id'])]["KB"]["main"]}
         if frase == '/stop':
             start = 0
-            return {"mess": "Obrigado por participar", "reply_markup": words[self.get_lang_userid_db(tipoMsg['from']['id'])]["KB"]["dubble"]}
+            return {"mess": "Obrigado por participares nas minhas actividades!!", "reply_markup": words[self.get_lang_userid_db(tipoMsg['from']['id'])]["KB"]["dubble"]}
 
         if frase == "selecione disciplina":
             return {"mess": "Escolha a disciplina a que deseja tirar dúvidas.", "reply_markup": words[self.get_lang_userid_db(tipoMsg['from']['id'])]["KB"]["selecione disciplina"]}
