@@ -198,7 +198,7 @@ class Chatbot():
         # Responde frases que dependem do historico
         ultimaFrase = self.historico[-1]
 
-        print('hist: ', self.historico)
+        #print('hist: ', self.historico)
 
         if ultimaFrase == 'Hello, what is your name?':
             nome = self.pegaNome(frase)
