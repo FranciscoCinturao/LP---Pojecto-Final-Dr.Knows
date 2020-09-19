@@ -2,10 +2,11 @@
  Projecto para disciplina Laboratório de projecto
 
 
- 1º Para começar o chatbot, basta importar o codigo-fonte para um editor de texto (O editor utilizado pelo grupo foi o Atom)
-    Abra a consola de comandos do windows e escreva "pip install telepot". Isto fará com que a biblioteca de conexão entre o Python e o telegram seja instalada
+Manual de utilização
 
- 2º Após o codigo-fonte ser importado, execute o ficheiro "telegram.py"
+ 1º Para começar o chatbot, Abra a consola de comandos do windows e escreva "pip install telepot". Isto fará com que a biblioteca de conexão entre o Python e o telegram seja         instalada.
+
+ 2º Após o codigo-fonte ser importado, execute o ficheiro "telegram.py" através da consola de comandos. Posicione-se na pasta com os ficheiros relativos ao chatbot e escreve "python -m      telegram.py"
 
 3º Abrir a aplicação telegram e no menu de procura (topo superior esquerdo do ecrã), colocar a handle do bot @DrKnowUalbot ,
    para iniciar uma conversa  com o chatbot.
