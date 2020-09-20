@@ -34,7 +34,6 @@ class Chatbot():
         if 'execute ' in frase:
             return frase
         frase = frase.lower()
-        # frase = frase.replace('é','eh')
         return frase
 
     def write_to_db(self, id, lang):
@@ -179,7 +178,7 @@ class Chatbot():
                                     corretas += 1
 
                             timerer = timer
-                            if timer >= 70:  # note: formula can be changed depends on hardness and number of question
+                            if timer >= 70:
                                 final_score = corretas*5
                             else:
                                 if timer < 30:
@@ -198,7 +197,7 @@ class Chatbot():
         # Responde frases que dependem do historico
         ultimaFrase = self.historico[-1]
 
-        #print('hist: ', self.historico)
+        print('hist: ', self.historico)
 
         if ultimaFrase == 'Hello, what is your name?':
             nome = self.pegaNome(frase)
@@ -291,7 +290,7 @@ class Chatbot():
                     # telegramm.register_next_step_handler(message, func)
                     # return questao['resposta'][tipo]
         if start <= 0 and frase != "quiz":
-            if self.check_userid_db(tipoMsg['from']['id']):
+            if self.check_userid_db(tipoMsg['from']['id'], "EU"):
                 return words[self.get_lang_userid_db(tipoMsg['from']['id'])]["understand"]
             else:
                 self.write_to_db(tipoMsg['from']['id'], "PT")
