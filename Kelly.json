@@ -1,190 +1,37 @@
 [["Danilson", "Adelxandre", "Felipe", "Filipe", "Julio", "Fil", "Jose", "Armando", "Francisco", "Dinis", "Nuno", "Adelio", "Jorge"],
-[{"pergunta":
-	["base de dados", "base dados", "bd","bases de dados"],
-"resposta": {
-	"texto": "s\u00E3o o conjuntos de arquivos relacionados entre si com registros sobre pessoas, lugares ou coisas. S\u00E3o  cole\u00E7\u00f5es organizadas de dados que se relacionam de forma a criar algum sentido (Informa\u00E7\u00E3o) e dar mais efici\u00eancia durante uma pesquisa ou estudo cientifico.",
-	"link": "https://pt.wikipedia.org/wiki/Banco_de_dados",
-	"video": "https://www.youtube.com/watch?v=qZgWQ1Wv4VM"}},
-{"pergunta":
-	["mbd", "modela\u00E7\u00E3o de base de dados", "modela\u00E7\u00E3o de base dados"],
-"resposta": {
-	"texto": "A modela\u00e7\u00e3o de dados s\u00e3o m\u00e9todos que permitem modelar e estruturar uma base de dados. Essa ferramenta permite demonstrar a constru\u00e7\u00e3o dando suporte aos processos de neg\u00f3cios como estar\u00e1 organizado os dados e quais os relacionamentos que pretendemos estabelecer entre eles",
-	"link": "https://pt.slideshare.net/hashashin/slides-20866239",
-	"video": "https://www.youtube.com/watch?v=8CkMX2qXgdY"}},
-{"pergunta":
-	["dados", "dado"],
-"resposta": {
-	"texto": "Dados s\u00E3o express\u00f5es gerais que descrevem caracter\u00edsticas das entidades sobre as quais operam os algoritmos. Estas express\u00f5es devem ser apresentadas de maneira a que possam ser tratadas por um computador",
-	"link": "https://conceito.de/dados",
-	"video": "https://www.youtube.com/watch?v=DrMnrd9ef9U"}},
-{"pergunta":
-	["guardar dados", "sitios para guardar dados"],
-"resposta": {
-	"texto": "Os dados podem ser guardados de duas maneiras: num sistema de processamento de ficheiros ou num sistema de gest\u00e3o de bases de dados." }},
-{"pergunta":
-	["abstra\u00E7\u00E3o bd", "abstra\u00E7\u00E3o base de dados"],
-"resposta": {
-	"link": "https://pt.wikipedia.org/wiki/Camada_de_abstra%C3%A7%C3%A3o_de_banco_de_dados",
-	"video": "https://www.youtube.com/watch?v=DrMnrd9ef9U"}},
-{"pergunta":
-	["independ\u00eancia dados"],
-"resposta": {
-	"texto": "Independ\u00eancia de dados l\u00f3gica - permite alterar apenas o n\u00edvel conceitual, n\u00E3o o havendo nenhuma altera\u00E7\u00E3o o no n\u00edvel externo ou nas aplica\u00E7\u00f5es do usu\u00e1rio. \nIndepend\u00eancia de dados f\u00edsica - permite alterar o n\u00edvel interno sem ter que alterar o n\u00edvel conceitual, n\u00edvel externo ou as aplica\u00E7\u00f5es do usu\u00e1rio.",
-	"link": "https://www.devmedia.com.br/arquitetura-de-um-sgbd/25007"}},
-{"pergunta":
-	["ficheiro heap","heap"],
-"resposta": {
-	"texto": "Posiciona os registos no disco sem nenhuma ordem espec\u00edfica, ele faz o registo no final do ficheiro; \n\u00E9 a estrutura de ficheiros mais simples",
-	"link": "https://pt.wikipedia.org/wiki/Heap"}},
-{"pergunta":
-	["ficheiro hash","hash"],
-"resposta": {
-	"texto": "O ficheiro Hashed usa a fun\u00e7\u00e3o hash aplicada a um dado campo para determinar a posi\u00e7\u00e3o de um registo no disco e tem acesso r\u00e1pido a registos",
-	"link": "http://www.di.ubi.pt/~agomes/bd2/teoricas/03-ficheiroseindices.pdf"}},
-{"pergunta":
-	["ficheiro sorted","sorted"],
-"resposta": {
-	"texto": "O ficheiro Hashed usa a fun\u00e7\u00e3o hash aplicada a um dado campo para determinar a posi\u00e7\u00e3o de um registo no disco e tem acesso r\u00e1pido a registos",
-	"link": "http://www.di.ubi.pt/~agomes/bd2/teoricas/03-ficheiroseindices.pdf"}},
-{"pergunta":
-	["fun\u00E7\u00f5es"],
-"resposta": {
-	"texto": "Fun\u00e7\u00f5es s\u00e3o blocos pl/sql com nomes, os quais retornam um \u00fanico valor\n\u2022 fun\u00e7\u00f5es podem aceitar um, muitos ou nenhum par\u00e2metro, mas sempre deve ter uma cl\u00e1usula de retorno",
-	"link": "http://pgdocptbr.sourceforge.net/pg80/xfunc-sql.html"}},
-{"pergunta":
-	["exce\u00e7\u00f5es pl/sql"],
-"resposta": {
-	"texto": "S\u00e3o utilizadas para captar exce\u00e7\u00f5es, e definir a\u00e7\u00f5es a tomar quando estas ocorrem",
-	"link": "https://www.devmedia.com.br/tratamento-de-excecoes-de-sistema-na-linguagem-pl-sql/26001",
-	"video": "https://www.youtube.com/watch?v=o7XPOPSREK0"}},
-{"pergunta":
-	["exce\u00e7\u00f5es pl/sql"],
-"resposta": {
-	"texto": "s\u00e3o utilizadas para captar exce\u00e7\u00f5es, e definir a\u00e7\u00f5es a tomar quando estas ocorrem",
-	"link": "https://www.devmedia.com.br/tratamento-de-excecoes-de-sistema-na-linguagem-pl-sql/26001",
-	"video": "https://www.youtube.com/watch?v=o7XPOPSREK0&t"}},
-{"pergunta":
-	["par\u00e2metros utilizados nas fun\u00e7\u00f5es"],
-"resposta": {
-	"texto": "in- passa um valor como entrada(valor de somente leitura,n\u00e3o pode ser alterado na procedure ou function);\nout- passa um valor como sa\u00edda( valor de escrita somente,o valor \u00E9 retornado apenas se n\u00e3o ocorre um erro);\nin out- passa um valor como entrada e sa\u00edda( funciona como uma vari\u00e1vel global)",
-	"link": "https://www.devmedia.com.br/stored-procedure-parametros-de-entrada-e-saida/18573",
-	"video": "https://www.youtube.com/watch?v=emAPObt6PFs"}},
-{"pergunta":
-	["tipos dados"],
-"resposta": {
-	"texto": "agrupado em tr\u00eas conjuntos\ntipos de texto (strings)\ntipos num\u00E9ricos (inteiros e decimais)\ntipos de datas (temporais)"}},
-{"pergunta":
-	["armazenamento bases de dados"],
-"resposta": {
-	"texto": "\u00E9 feito do seguinte modo:\nleitura do bloco do disco depende de:\ntempo de posicionamento da cabe\u00e7a de leitura na pista correta (seek time);\ntempo de rota\u00e7\u00e3o do disco at\u00E9 que o bloco pretendido fique em posi\u00e7\u00e3o( latency time);\ntempo de transfer\u00eancia de um bloco do disco para a mem\u00f3ria( block transfer time);\nos dados armazenados no disco s\u00e3o organizados como ficheiros de registo;\ncada registo \u00E9 uma cole\u00e7\u00e3o de valores de dados;\nos registos devem ser armazenados em disco de modo a serem localizados eficientemente",
-	"link": "https://pt.wikibooks.org/wiki/Bancos_de_dados/Estrutura_de_armazenamento"}},
-{"pergunta":
-	["arquiteturas das sgbds"],
-"resposta": {
-	"texto": "As arquiteturas dos sgbds s\u00e3o:\nmem\u00f3ria compartilhada:tem como vantagem a comunica\u00e7\u00e3o entres os v\u00e1rios processadores ser extremamente eficiente mas,limita o n\u00famero de processadores que podem ser usados;\ndisco compartilhado:tem como vantagem um grau de toler\u00e2ncia de falhas mas,quando o n\u00famero de disco \u00E9 superior ao n\u00famero de processadores,a comunica\u00e7\u00e3o \u00E9 lenta;\nnada compartilhado:cada n\u00f3 tem um processador, mem\u00f3ria ou mais discos. tem como vantagem que os multiprocessadores podem ser expandidos sem interfer\u00eancia mas,tem elevado custo de comunica\u00e7\u00e3o e acesso a disco n\u00e3o local.",
-	"link": "http://www.di.ubi.pt/~agomes/bd2-2008-09/teoricas/01-arquitecturas.pdf",
-	"video": "https://www.youtube.com/watch?v=etReM7odebE&t=741s"}},
-{"pergunta":
-	["constitui\u00e7\u00e3o abd?","constitui\u00e7\u00e3o Aplica\u00E7\u00E3o base dados"],
-"resposta": {
-	"texto": "Camada de apresenta\u00e7\u00e3o: lida com a interface do utilizador;\ncamada de regras de neg\u00f3cio: contem a l\u00f3gica do neg\u00f3cio/ a\u00e7\u00f5es que devem ser executadas para realizar uma tarefa;\ncamada de acesso aos dados: comunica com a base de dados;\ngest\u00e3o de acesso aos dados;\narmazenamento dos dados: onde os dados est\u00e1 armazenados como sistema de processamento de ficheiros",
-	"link": "https://www.devmedia.com.br/stored-procedure-parametros-de-entrada-e-saida/18573",
-	"video": "https://www.youtube.com/watch?v=emAPObt6PFs"}},
-{"question":
-	["mdb","Modeling database"],
-"resposta": {
-	"text": "Data modeling is a method of modeling and structuring a database. This tool allows you to demonstrate the construction supporting business processes, how the data will be organized and what relationships we intend to establish between them",
-	"link": "https://www.guru99.com/data-modelling-conceptual-logical.html",
-	"video": "https://www.youtube.com/watch?v=tR_rOJPiEXc"}},
-{"pergunta":
-	["data"],
-"resposta": {
-	"text": "Data are general expressions that describe characteristics of the entities on which the algorithms operate. These expressions must be presented in a way that they can be handled by a computer)",
-	"link": "https://www.simplilearn.com/what-is-data-article",
-	"video": "https://www.youtube.com/watch?v=pg12U1BAnoA"}},
-{"pergunta":
-	["dbms","database management system"],
-"resposta": {
-	"text": "This system is a software developed to support, maintain and access large interrelated data collections. A sgbd is a software system that facilitates the process of defining, building, manipulating and sharing the database",
-	"link": "https://www.guru99.com/what-is-dbms.html",
-	"video": "https://www.youtube.com/watch?v=lDpB9zF8LBw"}},
-{"pergunta":
-	["store data","save data", "datastore", "data store"],
-"resposta": {
-	"text": "The data can be stored in two ways: in a file processing system or in a database management system or database management system",
-	"link": "https://en.wikipedia.org/wiki/Data_store",
-	"video": "https://www.youtube.com/watch?v=z3Wc9nrtVI0"}},
-{"pergunta":
-	["levels of abstraction in a dbms","levels of abstraction in a database management system"],
-"resposta": {
-	"text": "external level; conceptual/logical level; physical level.",
-	"link": "https://beginnersbook.com/2015/04/levels-of-abstraction-in-dbms/",
-	"video": "https://www.youtube.com/watch?v=5fs1ldO6B5c"}},
-{"pergunta":
-	["data independence"],
-"resposta": {
-	"text": "Is the ability to change the schema at one level of the database system without it changing the schema at the next level and it allows two types",
-	"link": "https://www.guru99.com/dbms-data-independence.html",
-	"video": "https://www.youtube.com/watch?v=zGBIAOYX9Uk"}},
-{"pergunta":
-	["kind of data independence"],
-"resposta": {
-	"text": "There are two types that exist: - Logical independence of data: This is the ability to change the conceptual schema without having to change the external schemas or application programs;- physical independence of data: is the ability to change the internal schema without having to change the conceptual schema",
-	"link": "https://www.guru99.com/dbms-data-independence.html",
-	"video": "https://www.youtube.com/watch?v=zGBIAOYX9Uk"}},
-{"pergunta":
-	["heap file"],
-"resposta": {
-	"text": "The heap file positions the records on the disk without any specific order, it is the simplest file structure",
-	"link": "http://pages.cs.wisc.edu/~dbbook/openAccess/Minibase/spaceMgr/heap_file.html",
-	"video": "https://www.youtube.com/watch?v=626Pw_eq-k0"}},
-{"pergunta":
-	["sorted file", "sorted", "sort"],
-"resposta": {
-	"text": "The sorted file positions the records in an order according to a given field; it reads these same records in the order of the sort key values, is super efficient and does not require access to additional blocks",
-	"link": "https://www.tutorialcup.com/dbms/sorting.htm",
-	"video": "https://www.youtube.com/watch?v=lK_kmSGpu5I"}},
-{"pergunta":
-	["hashed file", "hashed", "hash file"],
-"resposta": {
-	"text": "The hashed file uses the hash function applied to a given field to determine the position of a record on the disk and has quick access to records",
-	"link": "https://www.tutorialcup.com/dbms/hash-file-organization.htm",
-	"video": "https://www.youtube.com/watch?v=WeBiqTxgTrk"}},
-{"pergunta":
-	["functions"],
-"resposta": {
-	"text": "Functions are pl/sql blocks with names, which return a single value- functions may accept one, many or no parameters, but must always have a return clause",
-	"link": "https://www.tutorialspoint.com/plsql/plsql_functions.htm",
-	"video": "https://www.youtube.com/watch?v=AONv90Mzy1s"}},
-{"pergunta":
-	["exceptions","exception"],
-"resposta": {
-	"text": "Exceptions in pl/sql are used to capture exceptions, and define actions to take when they occur.",
-	"link": "https://www.tutorialspoint.com/plsql/plsql_functions.htm",
-	"video": "https://www.youtube.com/watch?v=AONv90Mzy1s"}},
-{"pergunta":
-	["parameters"],
-"resposta": {
-	"text": "Exceptions in pl/sql are used to capture exceptions, and define actions to take when they occur.",
-	"link": "https://plsql-tutorial.com/plsql-passing-parameters-procedure-function.htm",
-	"video": "https://www.youtube.com/watch?v=emAPObt6PFs&t=1s"}},
-{"pergunta":
-	["types data"],
-"resposta": {
-	"text": "Data can be grouped in three sets: text types (strings); numerical types (integers and decimals) and types of dates (times)",
-	"link": "https://www.w3schools.com/sql/sql_datatypes.asp"}},
-{"pergunta":
-	["sgbd architecture"],
-"resposta": {
-	"text": "The sgbds architectures are the shared memory: has the advantage that communication between the various processors is extremely efficient but limits the number of processors that can be used; shared disk: has the advantage of a degree of fault tolerance but, when the number of disk is greater than the number of processors, communication is slow;nothing shared: each node has one processor, memory or more disks. has the advantage that multiprocessors can be expanded without interference but, has high cost of communication and access to non local disk",
-	"link": "https://datacadamia.com/data/concurrency/architecture"}},
-{"pergunta":
-	["sgbd architecture"],
-"resposta": {
-	"text": "The sgbds architectures are the shared memory: has the advantage that communication between the various processors is extremely efficient but limits the number of processors that can be used; shared disk: has the advantage of a degree of fault tolerance but, when the number of disk is greater than the number of processors, communication is slow;nothing shared: each node has one processor, memory or more disks. has the advantage that multiprocessors can be expanded without interference but, has high cost of communication and access to non local disk",
-	"link": "https://datacadamia.com/data/concurrency/architecture"}},
-{"pergunta":
-	["constitution dba","constitution database application","constitution database"],
-"resposta": {
-	"text": "presentation layer: it deals with the user interface; business rules layer: contains the logic of the business/actions that must be executed to perform a task;data access layer: communicates with the database;data access management;data storage: where the data is stored as a file processing system",
-	"link": "https://www.guru99.com/dbms-architecture.html"}}]]
+[{"pergunta": ["base de dados", "base dados", "bd", "bases de dados"], "resposta": {"texto": "S\u00e3o os conjuntos de arquivos relacionados entre si com registos sobre pessoas, lugares ou coisas.\n S\u00e3o  cole\u00e7\u00f5es organizadas de dados que se relacionam de forma a criar algum sentido (Informa\u00e7\u00e3o) e dar mais efici\u00eancia durante uma pesquisa ou estudo cientifico.", "link": "https://pt.wikipedia.org/wiki/Banco_de_dados", "video": "https://www.youtube.com/watch?v=qZgWQ1Wv4VM"}},
+ {"pergunta": ["mbd", "modela\u00e7\u00e3o de base de dados", "modela\u00e7\u00e3o de base dados"], "resposta": {"texto": "A modela\u00e7\u00e3o de dados s\u00e3o m\u00e9todos que permitem modelar e estruturar uma base de dados. Essa ferramenta permite demonstrar a constru\u00e7\u00e3o dando suporte aos processos de neg\u00f3cios como estar\u00e1 organizado os dados e quais os relacionamentos que pretendemos estabelecer entre eles", "link": "https://pt.slideshare.net/hashashin/slides-20866239", "video": "https://www.youtube.com/watch?v=8CkMX2qXgdY"}},
+ {"pergunta": ["dados", "dado"], "resposta": {"texto": "Dados s\u00e3o express\u00f5es gerais que descrevem caracter\u00edsticas das entidades sobre as quais operam os algoritmos. Estas express\u00f5es devem ser apresentadas de maneira a que possam ser tratadas por um computador", "link": "https://conceito.de/dados", "video": "https://www.youtube.com/watch?v=DrMnrd9ef9U"}},
+ {"pergunta": ["guardar dados", "sitios para guardar dados"], "resposta": {"texto": "Os dados podem ser guardados de duas maneiras: num sistema de processamento de ficheiros ou num sistema de gest\u00e3o de bases de dados."}},
+ {"pergunta": ["abstra\u00e7\u00e3o bd", "abstra\u00e7\u00e3o base de dados"], "resposta": {"link": "https://pt.wikipedia.org/wiki/Camada_de_abstra%C3%A7%C3%A3o_de_banco_de_dados", "video": "https://www.youtube.com/watch?v=DrMnrd9ef9U"}},
+ {"pergunta": ["independ\u00eancia dados"], "resposta": {"texto": "Independ\u00eancia de dados l\u00f3gica - permite alterar apenas o n\u00edvel conceitual, n\u00e3o o havendo nenhuma altera\u00e7\u00e3o o no n\u00edvel externo ou nas aplica\u00e7\u00f5es do usu\u00e1rio. \nIndepend\u00eancia de dados f\u00edsica - permite alterar o n\u00edvel interno sem ter que alterar o n\u00edvel conceitual, n\u00edvel externo ou as aplica\u00e7\u00f5es do usu\u00e1rio.", "link": "https://www.devmedia.com.br/arquitetura-de-um-sgbd/25007"}},
+ {"pergunta": ["ficheiro heap", "heap"], "resposta": {"texto": "Posiciona os registos no disco sem nenhuma ordem espec\u00edfica, ele faz o registo no final do ficheiro; \n\u00e9 a estrutura de ficheiros mais simples", "link": "https://pt.wikipedia.org/wiki/Heap"}},
+ {"pergunta": ["ficheiro hash", "hash"], "resposta": {"texto": "O ficheiro Hashed usa a fun\u00e7\u00e3o hash aplicada a um dado campo para determinar a posi\u00e7\u00e3o de um registo no disco e tem acesso r\u00e1pido a registos", "link": "http://www.di.ubi.pt/~agomes/bd2/teoricas/03-ficheiroseindices.pdf"}},
+ {"pergunta": ["ficheiro sorted", "sorted"], "resposta": {"texto": "O ficheiro Hashed usa a fun\u00e7\u00e3o hash aplicada a um dado campo para determinar a posi\u00e7\u00e3o de um registo no disco e tem acesso r\u00e1pido a registos", "link": "http://www.di.ubi.pt/~agomes/bd2/teoricas/03-ficheiroseindices.pdf"}},
+ {"pergunta": ["fun\u00e7\u00f5es"], "resposta": {"texto": "Fun\u00e7\u00f5es s\u00e3o blocos pl/sql com nomes, os quais retornam um \u00fanico valor\n\u2022 fun\u00e7\u00f5es podem aceitar um, muitos ou nenhum par\u00e2metro, mas sempre deve ter uma cl\u00e1usula de retorno", "link": "http://pgdocptbr.sourceforge.net/pg80/xfunc-sql.html"}},
+ {"pergunta": ["exce\u00e7\u00f5es pl/sql"], "resposta": {"texto": "S\u00e3o utilizadas para captar exce\u00e7\u00f5es, e definir a\u00e7\u00f5es a tomar quando estas ocorrem", "link": "https://www.devmedia.com.br/tratamento-de-excecoes-de-sistema-na-linguagem-pl-sql/26001", "video": "https://www.youtube.com/watch?v=o7XPOPSREK0"}},
+ {"pergunta": ["exce\u00e7\u00f5es pl/sql"], "resposta": {"texto": "s\u00e3o utilizadas para captar exce\u00e7\u00f5es, e definir a\u00e7\u00f5es a tomar quando estas ocorrem", "link": "https://www.devmedia.com.br/tratamento-de-excecoes-de-sistema-na-linguagem-pl-sql/26001", "video": "https://www.youtube.com/watch?v=o7XPOPSREK0&t"}},
+ {"pergunta": ["par\u00e2metros utilizados nas fun\u00e7\u00f5es"], "resposta": {"texto": "in- passa um valor como entrada(valor de somente leitura,n\u00e3o pode ser alterado na procedure ou function);\nout- passa um valor como sa\u00edda( valor de escrita somente,o valor \u00e9 retornado apenas se n\u00e3o ocorre um erro);\nin out- passa um valor como entrada e sa\u00edda( funciona como uma vari\u00e1vel global)", "link": "https://www.devmedia.com.br/stored-procedure-parametros-de-entrada-e-saida/18573", "video": "https://www.youtube.com/watch?v=emAPObt6PFs"}},
+ {"pergunta": ["tipos dados"], "resposta": {"texto": "agrupado em tr\u00eas conjuntos\ntipos de texto (strings)\ntipos num\u00e9ricos (inteiros e decimais)\ntipos de datas (temporais)"}},
+ {"pergunta": ["armazenamento bases de dados"], "resposta": {"texto": "\u00e9 feito do seguinte modo:\nleitura do bloco do disco depende de:\ntempo de posicionamento da cabe\u00e7a de leitura na pista correta (seek time);\ntempo de rota\u00e7\u00e3o do disco at\u00e9 que o bloco pretendido fique em posi\u00e7\u00e3o( latency time);\ntempo de transfer\u00eancia de um bloco do disco para a mem\u00f3ria( block transfer time);\nos dados armazenados no disco s\u00e3o organizados como ficheiros de registo;\ncada registo \u00e9 uma cole\u00e7\u00e3o de valores de dados;\nos registos devem ser armazenados em disco de modo a serem localizados eficientemente", "link": "https://pt.wikibooks.org/wiki/Bancos_de_dados/Estrutura_de_armazenamento"}},
+ {"pergunta": ["arquiteturas das sgbds"], "resposta": {"texto": "As arquiteturas dos sgbds s\u00e3o:\nmem\u00f3ria compartilhada:tem como vantagem a comunica\u00e7\u00e3o entres os v\u00e1rios processadores ser extremamente eficiente mas,limita o n\u00famero de processadores que podem ser usados;\ndisco compartilhado:tem como vantagem um grau de toler\u00e2ncia de falhas mas,quando o n\u00famero de disco \u00e9 superior ao n\u00famero de processadores,a comunica\u00e7\u00e3o \u00e9 lenta;\nnada compartilhado:cada n\u00f3 tem um processador, mem\u00f3ria ou mais discos. tem como vantagem que os multiprocessadores podem ser expandidos sem interfer\u00eancia mas,tem elevado custo de comunica\u00e7\u00e3o e acesso a disco n\u00e3o local.", "link": "http://www.di.ubi.pt/~agomes/bd2-2008-09/teoricas/01-arquitecturas.pdf", "video": "https://www.youtube.com/watch?v=etReM7odebE&t=741s"}},
+ {"pergunta": ["constitui\u00e7\u00e3o abd?", "constitui\u00e7\u00e3o Aplica\u00e7\u00e3o base dados"], "resposta": {"texto": "Camada de apresenta\u00e7\u00e3o: lida com a interface do utilizador;\ncamada de regras de neg\u00f3cio: contem a l\u00f3gica do neg\u00f3cio/ a\u00e7\u00f5es que devem ser executadas para realizar uma tarefa;\ncamada de acesso aos dados: comunica com a base de dados;\ngest\u00e3o de acesso aos dados;\narmazenamento dos dados: onde os dados est\u00e1 armazenados como sistema de processamento de ficheiros", "link": "https://www.devmedia.com.br/stored-procedure-parametros-de-entrada-e-saida/18573", "video": "https://www.youtube.com/watch?v=emAPObt6PFs"}},
+ {"pergunta": ["mdb", "Modeling database"], "resposta": {"text": "Data modeling is a method of modeling and structuring a database. This tool allows you to demonstrate the construction supporting business processes, how the data will be organized and what relationships we intend to establish between them", "link": "https://www.guru99.com/data-modelling-conceptual-logical.html", "video": "https://www.youtube.com/watch?v=tR_rOJPiEXc"}},
+ {"pergunta": ["data"], "resposta": {"text": "Data are general expressions that describe characteristics of the entities on which the algorithms operate. These expressions must be presented in a way that they can be handled by a computer)", "link": "https://www.simplilearn.com/what-is-data-article", "video": "https://www.youtube.com/watch?v=pg12U1BAnoA"}},
+ {"pergunta": ["dbms", "database management system"], "resposta": {"text": "This system is a software developed to support, maintain and access large interrelated data collections. A sgbd is a software system that facilitates the process of defining, building, manipulating and sharing the database", "link": "https://www.guru99.com/what-is-dbms.html", "video": "https://www.youtube.com/watch?v=lDpB9zF8LBw"}},
+ {"pergunta": ["store data", "save data", "datastore", "data store"], "resposta": {"text": "The data can be stored in two ways: in a file processing system or in a database management system or database management system", "link": "https://en.wikipedia.org/wiki/Data_store", "video": "https://www.youtube.com/watch?v=z3Wc9nrtVI0"}},
+ {"pergunta": ["levels of abstraction in a dbms", "levels of abstraction in a database management system"], "resposta": {"text": "external level; conceptual/logical level; physical level.", "link": "https://beginnersbook.com/2015/04/levels-of-abstraction-in-dbms/", "video": "https://www.youtube.com/watch?v=5fs1ldO6B5c"}},
+ {"pergunta": ["data independence"], "resposta": {"text": "Is the ability to change the schema at one level of the database system without it changing the schema at the next level and it allows two types", "link": "https://www.guru99.com/dbms-data-independence.html", "video": "https://www.youtube.com/watch?v=zGBIAOYX9Uk"}},
+ {"pergunta": ["kind of data independence"], "resposta": {"text": "There are two types that exist: - Logical independence of data: This is the ability to change the conceptual schema without having to change the external schemas or application programs;- physical independence of data: is the ability to change the internal schema without having to change the conceptual schema", "link": "https://www.guru99.com/dbms-data-independence.html", "video": "https://www.youtube.com/watch?v=zGBIAOYX9Uk"}},
+ {"pergunta": ["heap file"], "resposta": {"text": "The heap file positions the records on the disk without any specific order, it is the simplest file structure", "link": "http://pages.cs.wisc.edu/~dbbook/openAccess/Minibase/spaceMgr/heap_file.html", "video": "https://www.youtube.com/watch?v=626Pw_eq-k0"}},
+ {"pergunta": ["sorted file", "sorted", "sort"], "resposta": {"text": "The sorted file positions the records in an order according to a given field; it reads these same records in the order of the sort key values, is super efficient and does not require access to additional blocks", "link": "https://www.tutorialcup.com/dbms/sorting.htm", "video": "https://www.youtube.com/watch?v=lK_kmSGpu5I"}},
+ {"pergunta": ["hashed file", "hashed", "hash file"], "resposta": {"text": "The hashed file uses the hash function applied to a given field to determine the position of a record on the disk and has quick access to records", "link": "https://www.tutorialcup.com/dbms/hash-file-organization.htm", "video": "https://www.youtube.com/watch?v=WeBiqTxgTrk"}},
+ {"pergunta": ["functions"], "resposta": {"text": "Functions are pl/sql blocks with names, which return a single value- functions may accept one, many or no parameters, but must always have a return clause", "link": "https://www.tutorialspoint.com/plsql/plsql_functions.htm", "video": "https://www.youtube.com/watch?v=AONv90Mzy1s"}},
+ {"pergunta": ["exceptions", "exception"], "resposta": {"text": "Exceptions in pl/sql are used to capture exceptions, and define actions to take when they occur.", "link": "https://www.tutorialspoint.com/plsql/plsql_functions.htm", "video": "https://www.youtube.com/watch?v=AONv90Mzy1s"}},
+ {"pergunta": ["parameters"], "resposta": {"text": "Exceptions in pl/sql are used to capture exceptions, and define actions to take when they occur.", "link": "https://plsql-tutorial.com/plsql-passing-parameters-procedure-function.htm", "video": "https://www.youtube.com/watch?v=emAPObt6PFs&t=1s"}},
+ {"pergunta": ["types data"], "resposta": {"text": "Data can be grouped in three sets: text types (strings); numerical types (integers and decimals) and types of dates (times)", "link": "https://www.w3schools.com/sql/sql_datatypes.asp"}},
+ {"pergunta": ["sgbd architecture"], "resposta": {"text": "The sgbds architectures are the shared memory: has the advantage that communication between the various processors is extremely efficient but limits the number of processors that can be used; shared disk: has the advantage of a degree of fault tolerance but, when the number of disk is greater than the number of processors, communication is slow;nothing shared: each node has one processor, memory or more disks. has the advantage that multiprocessors can be expanded without interference but, has high cost of communication and access to non local disk", "link": "https://datacadamia.com/data/concurrency/architecture"}},
+ {"pergunta": ["sgbd architecture"], "resposta": {"text": "The sgbds architectures are the shared memory: has the advantage that communication between the various processors is extremely efficient but limits the number of processors that can be used; shared disk: has the advantage of a degree of fault tolerance but, when the number of disk is greater than the number of processors, communication is slow;nothing shared: each node has one processor, memory or more disks. has the advantage that multiprocessors can be expanded without interference but, has high cost of communication and access to non local disk", "link": "https://datacadamia.com/data/concurrency/architecture"}},
+ {"pergunta": ["constitution dba", "constitution database application", "constitution database"], "resposta": {"text": "presentation layer: it deals with the user interface; business rules layer: contains the logic of the business/actions that must be executed to perform a task;data access layer: communicates with the database;data access management;data storage: where the data is stored as a file processing system", "link": "https://www.guru99.com/dbms-architecture.html"}},
+ {"pergunta": ["entaocomoe"], "resposta": {"text": "eassim"}},
+ {"pergunta": ["qwerty"], "resposta": {"text": "1234567"}}]]

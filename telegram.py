@@ -25,3 +25,5 @@ telegram.message_loop(receberMsg)
 
 while True:
     sleep(60)
+
+    message_loop
